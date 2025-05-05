@@ -1,1 +1,48 @@
 # Portfolio
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinicius Albino | Portfólio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      color: #58a6ff;
+    }
+    p {
+      max-width: 400px;
+    }
+    a.button {
+      display: inline-block;
+      margin: 12px;
+      padding: 10px 20px;
+      background-color: #238636;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #2ea043;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vinicius Albino</h1>
+  <p>Estudante de Análise e Desenvolvimento de Sistemas, aprendendo desenvolvimento web. Buscando estágio na área de tecnologia.</p>
+  <a class="button" href="mailto:wadauelstream@gmail.com">📫 Contato</a>
+  <a class="button" href="https://github.com/Albino-V" target="_blank">🌐 GitHub</a>
+</body>
+</html>
